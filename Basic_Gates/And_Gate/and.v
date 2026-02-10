@@ -1,0 +1,9 @@
+module and_gate(a,b,y);
+	input a,b;
+	output y;
+	
+	//and g1 (y,a,b);    //Primitive Gate
+	
+	assign y = a & b;
+
+endmodule
